@@ -1,0 +1,63 @@
+:root {
+  --body-bg: #000000;
+  --wrapper-bg: #202124;
+  --user-info-bg: #282a2e;
+  --login-title: #ffffff;
+  --password-eye: #9c98a6;
+  --btn-text: #ffffff;
+  --btn-bg: #01ff5f;
+  --btn-bg-hover: #19e664;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--body-bg);
+  color: var(--login-title);
+}
+
+.navbar a {
+  color: var(--login-title) !important;
+}
+
+.user-wrapper {
+  background-color: var(--wrapper-bg);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 4rem 3rem;
+  border-radius: 0.4rem;
+}
+.user-wrapper img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 6rem;
+}
+
+#user-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.user-info-card {
+  padding: 0.5rem;
+  background-color: var(--user-info-bg);
+  border-radius: 0.4rem;
+  text-align: center;
+}
+.card {
+  background-color: var(--wrapper-bg);
+  margin-bottom: 3rem;
+  border-radius: 0.4rem;
+}

@@ -1,0 +1,33 @@
+:root {
+    --body-bg: #000000;
+    --login-title: #ffffff;
+    --password-eye: #9c98a6;
+    --btn-text: #ffffff;
+    --btn-bg: #01ff5f;
+    --btn-bg-hover: #19e664;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+    .logo {
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--body-bg);
+}
+
+.navbar a {
+    color: var(--login-title) !important;
+}

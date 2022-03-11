@@ -1,0 +1,103 @@
+:root {
+  --body-bg: #000000;
+  --login-title: #ffffff;
+  --password-eye: #9c98a6;
+  --btn-text: #ffffff;
+  --btn-bg: #01ff5f;
+  --btn-bg-hover: #19e664;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .logo {
+    margin-top: 3rem;
+    margin-bottom: -3rem;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--body-bg);
+}
+
+.brand-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.login-wrapper {
+  color: var(--login-title);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+form {
+  width: 90%;
+}
+form i {
+  margin-left: -30px;
+  cursor: pointer;
+  color: var(--password-eye);
+}
+.login-title {
+  font-size: 1.5rem;
+}
+.login-text {
+  color: var(--login-title);
+  font-size: 0.75rem;
+  text-decoration: none;
+  position: relative;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  height: 100%;
+}
+.login-remember-text {
+  height: 100%;
+  font-size: 0.75rem;
+}
+
+.form-control-email {
+  border: none;
+  border-top: 1px solid #b8b8b8;
+  border-radius: 0.4rem 0.4rem 0 0;
+  height: 3rem;
+  padding: 0 1rem 0 1rem;
+  width: 100%;
+}
+.form-control-password {
+  border: none;
+  border-top: 1px solid #b8b8b8;
+  border-radius: 0 0 0.4rem 0.4rem;
+  height: 3rem;
+  padding: 0 1rem 0 1rem;
+  width: 100%;
+}
+#login-btn {
+  font-weight: 700;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  width: 100%;
+  height: 3.5rem;
+  border: none;
+  border-radius: 0.4rem;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login-btn:hover {
+  background-color: var(--btn-bg-hover);
+}

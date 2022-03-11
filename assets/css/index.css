@@ -1,0 +1,92 @@
+:root {
+    --body-bg: #000000;
+    --login-title: #ffffff;
+    --password-eye: #9C98A6;
+    --btn-text: #ffffff;
+    --btn-bg: #01FF5F;
+    --btn-bg-hover: #19e664;
+}
+  
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+    .logo{
+        margin-left: 2rem;
+    }
+    #btn-login {
+        margin-right: 2rem;
+    }
+    .information-wrapper{
+        
+    }
+    .information-wrapper h1{
+        color: var(--login-title);
+        font-size: 3rem;
+        font-weight: 400;
+        padding: 1rem;
+    }
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body-bg);
+}
+.nav{
+    height: 3rem;
+}
+.logo{
+    margin-top: 2rem;
+    height: 1.5rem;
+}
+#btn-login {
+    font-weight: 700;
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    width: 7rem;
+    height: 2.3rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 0.4rem;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#btn-login:hover {
+    background-color: transparent;
+    border: 2px var(--btn-bg) solid;
+}
+.illustration-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 6rem);
+}
+
+
+.img-sport{
+    height: 20rem;
+}
+.information-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 6rem);
+}
+.information-wrapper h1{
+    color: var(--login-title);
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 6rem);
+}
